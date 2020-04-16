@@ -1,0 +1,134 @@
+body{
+    background: url("../img/bg1.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container{
+    width: 480px;
+    margin-top:60px;
+    margin-left:calc( 50% - 240px );
+}
+
+.formContainer{
+    width: 100%;
+    float:left;
+    padding:60px 60px 40px 60px;
+    /*background-color:#fff;*/
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    position:relative;
+    border-radius: 10px;
+}
+
+    .formContainer > .title {
+        width:100%;
+        margin:-30px 0 20px 0;
+        text-align: center;
+        border:0px solid #111;
+    }
+
+    .formContainer > .title > h1{
+        color:#111;
+        font-weight: 300;
+    }
+
+    .formContainer > .close {
+        width: 60px;
+        line-height:60px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 300;
+        color:gray;
+        position:absolute;
+        top:0;
+        right:0;
+        cursor:pointer
+    }
+
+    form {
+        width: 100%;
+    }
+        form > .formRow {
+            width: 100%;
+            border:none;
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+
+        form > .formRow:last-of-child {
+            margin-bottom: 0;
+        }
+
+        form > .formRow > label {
+            width: 100%;
+            color:#5F6368;
+            line-height: 10px;
+            /*text-transform: uppercase;*/
+        }
+
+        form > .formRow > input {
+            width: 100%;
+            padding-left:10px;
+            border: none;
+            border: 1px solid #DADCE0;
+            border-radius: 4px;
+            line-height: 40px;
+            font-size: 15px;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        form > .formRow > input:focus {
+            outline:none;
+        }
+
+        form > .btnWidth {
+            width:100%;
+            text-align: center;
+        }
+
+        form > .formRow > .btn {
+            padding: 0 20px 0 20px;
+            background-color: #9FA0A2;
+            color:#fff;
+            line-height: 40px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        form > .termsPolicy{
+            width:100%;
+            text-align: center;
+            color:#999;
+            font-size:12px;
+            line-height: 12px;
+        }
+    
+        form > .termsPolicy a{
+            color:#999;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        form > .termsPolicy a:hover{
+            color:#666;
+        }
+
+        form > .member{
+            width:100%;
+            margin:20px 0 0 0;
+            text-align: center;
+            color:#111;
+            font-size:13px;
+            line-height: 13px;
+        }
+
+        form > .member a{
+            color:#999;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        form > .member a:hover{
+            text-decoration:underline;
+        }
+
